@@ -1,0 +1,26 @@
+<main>
+  <section class="Contianer">
+    <app-text-component></app-text-component>
+    <app-imag-component></app-imag-component>
+  </section>
+</main>
+<style>
+  main {
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  .Contianer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 40em;
+    height: 41em;
+    background-color: #e4e5df;
+  }
+  h1 {
+    margin: 0 auto;
+    background-color: red;
+    width: fit-content;
+  }
+</style>
